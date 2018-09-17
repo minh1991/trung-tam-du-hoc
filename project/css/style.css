@@ -1,0 +1,437 @@
+*{
+	margin: 0px;
+	padding: 1px 0px;
+}
+
+body img{
+	width: 100%;
+	height: auto;
+}
+
+														/*bat dau menu*/
+
+#ten-trung-tam h3 {
+    font-family: 'Convergence';
+    padding-top: 16px;
+    text-shadow: 2px 1px 1px #ff6666;
+    font-size: 36px;
+}
+
+
+#basicExampleNav li.nav-item {
+    padding-left: 10px;
+}
+
+
+#logo .logo {
+    width: 100%;
+    text-align: center;
+}
+
+#logo img.img-fluid {
+    width: 85%;
+}
+
+#logo {
+    padding: 0px;
+    margin: 0;
+}
+
+#menu-top .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+#menu-top {
+    padding: 0;
+    margin: 0;
+}
+
+
+#menu-button button {
+    width: 163px;
+    margin: 3px 3px;
+}
+
+#menu-button {
+    padding: 0px 3px;
+    text-align: center;
+}
+
+#menu-duoi {
+    padding: 7px 0px;
+}
+
+#menu-duoi nav.navbar.navbar-expand-lg.navbar-dark.primary-color {
+    padding: 0;
+}
+
+#icon-lien-he {
+    margin: 5px 0px;
+}
+
+#sdt .card.bg-danger.text-white {
+    margin: 10px 0px;
+    margin-right: 25px;
+}
+
+#sdt .card-body {
+    padding: 10px 5px;
+}
+
+#icon-lien-he a.nav-link {
+    padding-left: 5%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+#icon-lien-he li.nav-item {
+    width: 19%;
+}
+
+/*end menu*/
+/*content1*/
+#cogai1 {
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    bottom: 2%;
+    right: 17%;
+    opacity: 0;
+    /*visibility: hidden;*/
+    animation: slide-mot-lanmot 0.5s forwards;
+    animation-iteration-count: 1;
+}
+@-webkit-keyframes slide-mot-lanmot{
+	0%{
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transform: translateY(1000px);
+		   -moz-transform: translateY(1000px);
+		    -ms-transform: translateY(1000px);
+		     -o-transform: translateY(1000px);
+		        transform: translateY(1000px);
+	}
+	100%{
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: translateY(0px);
+		   -moz-transform: translateY(0px);
+		    -ms-transform: translateY(0px);
+		     -o-transform: translateY(0px);
+		        transform: translateY(0px);
+	}
+}
+
+#haoquang1 {
+    position: absolute;
+    width: 20%;
+    bottom: 41%;
+    right: 17%;
+    z-index: 4;
+    opacity: 0;
+    /*visibility: hidden;*/
+    animation-delay: 1s;
+    animation: haoquang-saucogai 1s forwards;
+    animation-iteration-count: 1;
+}
+
+#haoquang2 {
+    position: absolute;
+    width: 20%;
+    bottom: 35%;
+    right: 14%;
+    z-index: 4;
+    opacity: 0;
+   /* visibility: hidden;*/
+    animation-delay: 0.8s;
+    animation: haoquang-saucogai 0.6s forwards;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes haoquang-saucogai{
+	0%{
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transform: scale(0.2);
+		   -moz-transform: scale(0.2);
+		    -ms-transform: scale(0.2);
+		     -o-transform: scale(0.2);
+		        transform: scale(0.2);
+	}
+	50%{
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: scale(1.5);
+		   -moz-transform: scale(1.5);
+		    -ms-transform: scale(1.5);
+		     -o-transform: scale(1.5);
+		        transform: scale(1.5);
+	}
+	100%{
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: scale(1);
+		   -moz-transform: scale(1);
+		    -ms-transform: scale(1);
+		     -o-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+
+#sachvo {
+    position: absolute;
+    z-index: 4;
+    width: 44%;
+    bottom: 2%;
+    left: 15%;
+    opacity: 0;
+    visibility: hidden;
+    animation-delay: 2.5s;
+    animation: slidemot-sachvo 1s forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes slidemot-sachvo{
+	0%{
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transform: scale(0.4);
+		   -moz-transform: scale(0.4);
+		    -ms-transform: scale(0.4);
+		     -o-transform: scale(0.4);
+		        transform: scale(0.4);
+	}
+	50%{
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: scale(1.5);
+		   -moz-transform: scale(1.5);
+		    -ms-transform: scale(1.5);
+		     -o-transform: scale(1.5);
+		        transform: scale(1.5);
+	}
+	100%{
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: scale(1);
+		   -moz-transform: scale(1);
+		    -ms-transform: scale(1);
+		     -o-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+#cauvong {
+    position: absolute;
+    z-index: 4;
+    width: 30%;
+    bottom: 47%;
+    left: 28%;
+    opacity: 0;
+    /*visibility: hidden;*/
+    animation-delay: 3.6s;
+    animation: slidemot-linhtinh 1s forwards;
+    animation-iteration-count: 1;
+}
+
+#may1 {
+    position: absolute;
+    z-index: 3;
+    width: 18%;
+    bottom: 54%;
+    left: 17%;
+    opacity: 0;
+    /*visibility: hidden;*/
+    animation-delay: 4s;
+    animation: slidemot-linhtinh 1s forwards;
+    animation-iteration-count: 1;
+}
+
+#may2 {
+    width: 19%;
+    position: absolute;
+    z-index: 3;
+    bottom: 58%;
+    left: 42%;
+    opacity: 0;
+    visibility: hidden;
+    animation-delay:  4.5s;
+    animation: slidemot-linhtinh 1s forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes slidemot-linhtinh{
+	0%{
+		opacity: 0;
+	  /*  visibility: hidden;*/
+	    -webkit-transform: transleteY(-1000px);
+	       -moz-transform: transleteY(-1000px);
+	        -ms-transform: transleteY(-1000px);
+	         -o-transform: transleteY(-1000px);
+	            transform: transleteY(-1000px);
+	}
+	100%{
+		opacity: 1;
+	  /*  visibility: visible;*/
+	    -webkit-transform: transleteY(0px);
+	       -moz-transform: transleteY(0px);
+	        -ms-transform: transleteY(0px);
+	         -o-transform: transleteY(0px);
+	            transform: transleteY(0px);
+	}
+}
+
+#slide1 button a {
+    color: #fff;
+    font-size: 20px;
+}
+
+#slide1 button {
+    position: absolute;
+    width: 170px;
+    padding: 0;
+    margin: 0;
+    bottom: 53%;
+    left: 51%;
+    border-radius: 20px;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    z-index: 5;
+    opacity: 0;
+  /*  visibility: hidden;*/
+    animation-delay:  2.6s;
+    animation: slidemot-nut 1s forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes slidemot-nut{
+	0%{
+		opacity: 0;
+	  /*  visibility: hidden;*/
+	}
+	100%{
+		opacity: 1;
+	  /*  visibility: visible;*/
+	}
+}
+
+
+											/*end content 1*/
+											/*content 2: Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng hÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â¹ng bÃƒÂ¡Ã‚ÂºÃ‚Â¡n, cÃƒÆ’Ã‚Â¡c chÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng trÃƒÆ’Ã‚Â¬nh*/
+
+
+#content2 #noidung {
+    margin-top: 6%;
+}
+
+#content2 #noidung .chuongtrinh .text-center p {
+    position: absolute;
+    z-index: 2;
+    top: 41%;
+    left: 4.5%;
+    right: 4.5%;
+    font-size: 104%;
+}
+
+#content2 #noidung .chuongtrinh .text-center h2 {
+    position: absolute;
+    z-index: 2;
+    top: 21%;
+    right: 2.5%;
+    left: 2.5%;
+    font-size: 145%;
+    font-weight: bold;
+}
+
+#content2 #noidung .chuongtrinh .text-center {
+    background: #ffcb32;
+    height: 56vh;
+    border-radius: 25px;
+}
+
+#content2 #noidung .chuongtrinh .text-center img {
+    position: absolute;
+    z-index: 4;
+    width: 40%;
+    left: 30%;
+    right: 30%;
+    top: -15%;
+}
+
+
+#content2 #tieude .lines-trangtri i {
+    font-size: 35px;
+    position: relative;
+    top: -18px;
+    line-height: 35px;
+    background: #f1f1f1;
+    padding: 0px 8px;
+}
+
+#content2 #tieude .lines-trangtri {
+    border: 2px solid #2d3e50;
+    height: 0;
+    padding: 0;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    top: -25%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#content2 #tieude h2 {
+    font-size: 190%;
+    color: #2d3e50;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+#content2 {
+    margin: 0;
+    padding: 3%;
+    background-image: url("../web img/hinh nen content2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content2 #noidung .chuongtrinh .hover-bg {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    border-radius: 25px;
+    background: #ff8685e0;
+    text-align: center;
+    padding-top: 50%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#content2 #noidung .chuongtrinh {
+    position: relative;
+}
+
+#content2 #noidung .chuongtrinh:hover .hover-bg {
+    opacity: 1;
+}
+
+#content2 #noidung .chuongtrinh .hover-bg h2 {
+    padding-top: 15px;
+    font-size: 200%;
+    font-weight:  bold;
+    color: #fff;
+}
+
+
+#content2 #noidung .chuongtrinh .hover-bg i {
+    font-size: 218%;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 6px;
+}
