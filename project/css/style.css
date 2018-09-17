@@ -1,7 +1,8 @@
 *{
 	margin: 0px;
-	padding: 1px 0px;
+	padding: 0px;
 }
+
 
 body img{
 	width: 100%;
@@ -92,6 +93,11 @@ body img{
 
 /*end menu*/
 /*content1*/
+
+div#carouselExampleControls {
+    width: 100%;
+}
+
 #cogai1 {
     width: 20%;
     position: absolute;
@@ -318,11 +324,22 @@ body img{
 
 
 											/*end content 1*/
-											/*content 2: Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“ng hÃƒÆ’Ã‚Â nh cÃƒÆ’Ã‚Â¹ng bÃƒÂ¡Ã‚ÂºÃ‚Â¡n, cÃƒÆ’Ã‚Â¡c chÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng trÃƒÆ’Ã‚Â¬nh*/
+											/*content 2 +3: ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ng hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â nh cÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¹ng bÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡n, cÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡c chÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ng trÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬nh*/
 
 
 #content2 #noidung {
     margin-top: 6%;
+}
+
+div#content3 {
+    width: 100%;
+    background: #4bcffa;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#content3 .text-center {
+    padding-bottom: 3%;
 }
 
 #content2 #noidung .chuongtrinh .text-center p {
@@ -331,7 +348,8 @@ body img{
     top: 41%;
     left: 4.5%;
     right: 4.5%;
-    font-size: 104%;
+    font-size: 16.64px;
+    color: #747373;
 }
 
 #content2 #noidung .chuongtrinh .text-center h2 {
@@ -369,7 +387,28 @@ body img{
     padding: 0px 8px;
 }
 
+#content3 #tieude .lines-trangtri i {
+    font-size: 35px;
+    position: relative;
+    top: -18px;
+    line-height: 35px;
+    background: #4bcffa;
+    padding: 0px 8px;
+}
+
 #content2 #tieude .lines-trangtri {
+    border: 2px solid #2d3e50;
+    height: 0;
+    padding: 0;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    top: -25%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#content3 #tieude .lines-trangtri {
     border: 2px solid #2d3e50;
     height: 0;
     padding: 0;
@@ -386,6 +425,13 @@ body img{
     color: #2d3e50;
     font-weight: bold;
     margin-bottom: 1%;
+}
+
+#content3 #tieude h2 {
+    font-size: 190%;
+    color: #2d3e50;
+    font-weight: bold;
+    margin-bottom: 4%;
 }
 
 #content2 {
@@ -434,4 +480,24 @@ body img{
     border: 2px solid #fff;
     border-radius: 15px;
     padding: 6px;
+}
+
+#content3 #noidung p.card-text {
+    font-size: 16.64px;
+}
+
+#content3 #noidung h4.card-title {
+    font-weight: bold;
+    margin-bottom: 22px;
+    margin-top: 5px;
+}
+
+#content3 #noidung .card-body {
+    text-align: center;
+    background-color: #ffcb32;
+}
+
+#content3 #noidung img {
+    width: 100%;
+    height: 25vh;
 }
