@@ -1,0 +1,599 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body img{
+    width: 100%;
+    height: auto;
+}
+
+                                                        /*bat dau menu*/
+
+#ten-trung-tam h3 {
+    font-family: 'Convergence';
+    padding-top: 16px;
+    text-shadow: 2px 1px 1px #ff6666;
+    font-size: 36px;
+}
+
+
+#basicExampleNav li.nav-item {
+    padding-left: 10px;
+}
+
+
+#logo .logo {
+    width: 100%;
+    text-align: center;
+}
+
+#logo img.img-fluid {
+    width: 85%;
+}
+
+#logo {
+    padding: 0px;
+    margin: 0;
+}
+
+#menu-top .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+#menu-top {
+    padding: 0;
+    margin: 0;
+}
+
+
+#menu-button button {
+    width: 163px;
+    margin: 2% 1%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#menu-button .lienhe {
+    background: #c62828;
+    border-radius: 10px;
+    color: #fff;
+    width: 75%;
+}
+
+#menu-button .dangky {
+    background: #063080;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#menu-button {
+    /* padding: 0px 3px; */
+    text-align: left;
+    text-align: center;
+}
+
+#menu-duoi {
+    padding: 7px 0px;
+}
+
+#menu-duoi nav.navbar.navbar-expand-lg.navbar-dark.primary-color {
+    padding: 0;
+}
+
+#icon-lien-he {
+    margin: 5px 0px;
+}
+
+#sdt .card.bg-danger.text-white {
+    margin: 10px 0px;
+    margin-right: 25px;
+}
+
+#sdt .card-body {
+    padding: 10px 28px;
+    text-align: center;
+}
+
+#icon-lien-he a.nav-link {
+    padding-left: 0%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin-top: 10%;
+}
+
+
+#icon-lien-he li.nav-item {
+    width: 19%;
+}
+
+#menu-top .nav-item img {
+    width: 58%;
+    margin: auto;
+    text-align: center;
+}
+
+#sdt .card {
+    margin-top: 11px;
+    width: 80%;
+    background: #c62828;
+    color: #fff;
+    padding-left: 10px;
+    border-radius: 10px;
+    /* float: right; */
+}
+
+#sdt .card i {
+    padding-right: 10px;
+}
+
+/*end menu*/
+/*content1*/
+
+div#carouselExampleControls {
+    width: 100%;
+}
+
+#cogai1 {
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    bottom: 2%;
+    right: 17%;
+    opacity: 0;
+    /*visibility: hidden;*/
+    animation: slide-mot-lanmot 0.5s forwards;
+    animation-iteration-count: 1;
+}
+@-webkit-keyframes slide-mot-lanmot{
+    0%{
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transform: translateY(1000px);
+           -moz-transform: translateY(1000px);
+            -ms-transform: translateY(1000px);
+             -o-transform: translateY(1000px);
+                transform: translateY(1000px);
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translateY(0px);
+           -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+             -o-transform: translateY(0px);
+                transform: translateY(0px);
+    }
+}
+
+#haoquang1 {
+    position: absolute;
+    width: 20%;
+    bottom: 41%;
+    right: 17%;
+    z-index: 4;
+    opacity: 0;
+    /*visibility: hidden;*/
+    animation-delay: 1s;
+    animation: haoquang-saucogai 1s forwards;
+    animation-iteration-count: 1;
+}
+
+#haoquang2 {
+    position: absolute;
+    width: 20%;
+    bottom: 35%;
+    right: 14%;
+    z-index: 4;
+    opacity: 0;
+   /* visibility: hidden;*/
+    animation-delay: 0.8s;
+    animation: haoquang-saucogai 0.6s forwards;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes haoquang-saucogai{
+    0%{
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transform: scale(0.2);
+           -moz-transform: scale(0.2);
+            -ms-transform: scale(0.2);
+             -o-transform: scale(0.2);
+                transform: scale(0.2);
+    }
+    50%{
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: scale(1.5);
+           -moz-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+             -o-transform: scale(1.5);
+                transform: scale(1.5);
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: scale(1);
+           -moz-transform: scale(1);
+            -ms-transform: scale(1);
+             -o-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+#sachvo {
+    position: absolute;
+    z-index: 4;
+    width: 44%;
+    bottom: 2%;
+    left: 15%;
+    opacity: 0;
+    visibility: hidden;
+    animation-delay: 2.5s;
+    animation: slidemot-sachvo 1s forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes slidemot-sachvo{
+    0%{
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transform: scale(0.4);
+           -moz-transform: scale(0.4);
+            -ms-transform: scale(0.4);
+             -o-transform: scale(0.4);
+                transform: scale(0.4);
+    }
+    50%{
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: scale(1.5);
+           -moz-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+             -o-transform: scale(1.5);
+                transform: scale(1.5);
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: scale(1);
+           -moz-transform: scale(1);
+            -ms-transform: scale(1);
+             -o-transform: scale(1);
+                transform: scale(1);
+    }
+}
+#cauvong {
+    position: absolute;
+    z-index: 4;
+    width: 30%;
+    bottom: 47%;
+    left: 28%;
+    opacity: 0;
+    /*visibility: hidden;*/
+    animation-delay: 3.6s;
+    animation: slidemot-linhtinh 1s forwards;
+    animation-iteration-count: 1;
+}
+
+#may1 {
+    position: absolute;
+    z-index: 3;
+    width: 18%;
+    bottom: 54%;
+    left: 17%;
+    opacity: 0;
+    /*visibility: hidden;*/
+    animation-delay: 4s;
+    animation: slidemot-linhtinh 1s forwards;
+    animation-iteration-count: 1;
+}
+
+#may2 {
+    width: 19%;
+    position: absolute;
+    z-index: 3;
+    bottom: 58%;
+    left: 42%;
+    opacity: 0;
+    visibility: hidden;
+    animation-delay:  4.5s;
+    animation: slidemot-linhtinh 1s forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes slidemot-linhtinh{
+    0%{
+        opacity: 0;
+      /*  visibility: hidden;*/
+        -webkit-transform: transleteY(-1000px);
+           -moz-transform: transleteY(-1000px);
+            -ms-transform: transleteY(-1000px);
+             -o-transform: transleteY(-1000px);
+                transform: transleteY(-1000px);
+    }
+    100%{
+        opacity: 1;
+      /*  visibility: visible;*/
+        -webkit-transform: transleteY(0px);
+           -moz-transform: transleteY(0px);
+            -ms-transform: transleteY(0px);
+             -o-transform: transleteY(0px);
+                transform: transleteY(0px);
+    }
+}
+
+#slide1 button a {
+    color: #fff;
+    font-size: 20px;
+}
+
+#slide1 button {
+    position: absolute;
+    width: 170px;
+    padding: 0;
+    margin: 0;
+    bottom: 53%;
+    left: 51%;
+    border-radius: 20px;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    z-index: 5;
+    opacity: 0;
+  /*  visibility: hidden;*/
+    animation-delay:  2.6s;
+    animation: slidemot-nut 1s forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes slidemot-nut{
+    0%{
+        opacity: 0;
+      /*  visibility: hidden;*/
+    }
+    100%{
+        opacity: 1;
+      /*  visibility: visible;*/
+    }
+}
+
+
+                                            /*end content 1*/
+                                            /*content 2: táº¡i sao chá»n chÃºng tÃ´i*/
+
+                                           /*end content 2: táº¡i sao chá»n chÃºng tÃ´i*/
+                                           /*content 3: lá»™ trÃ¬nh du há»c*/
+#ct3-content .col-2dot4,
+#ct3-content .col-sm-2dot4,
+#ct3-content .col-md-2dot4,
+#ct3-content .col-lg-2dot4,
+#ct3-content .col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+ }
+
+#ct3-content .col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+#ct3-title {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#ct3-title h4 {
+    color: #fff;
+    font-weight: bold;
+}
+
+#ct3-content .card-body {
+    padding: 20px 10px;
+}
+
+#ct3-content .card {
+    background: #e74c3c;
+    text-align: center;
+}
+
+#ct3-content .card .card-body img {
+    width: 20%;
+}
+
+#ct3-content .card .card-body p {
+    color: #fff;
+    margin-top: 20px;
+    height: 13vh;
+}
+
+#content3 {background: #e74c3c;padding: 3% 0%;}
+
+#ct3-content .card-img-top {
+    width: 75%;
+    margin: auto;
+}
+@media (min-width: 540px) {
+    #ct3-content .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width: 720px) {
+    #ct3-content .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width: 960px) {
+    #ct3-content .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    #ct3-content .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+                                           /*end content 3: lá»™ trÃ¬nh du há»c*/
+                                           /*content 4: cÃ¡c chÆ°Æ¡ng trÃ¬nh du há»c chá»§ yáº¿u*/
+
+#content4 {
+    padding-bottom: 2%;
+}
+
+#ct4-title {
+    text-align: center;
+    margin: 2% 0%;
+}
+
+#ct4-title h4 {
+    color: black;
+    font-weight: bold;
+    padding: 1%;
+}
+
+#ct4-content .card .card-text {
+    text-align: left;
+    height: 25vh;
+}
+
+#ct4-content .card-body .btn {
+    background: blue;
+}
+
+#ct4-content .card-title {
+    margin-top: 2%;
+    margin-bottom: 6%;
+    font-weight: bold;
+}
+
+#ct4-content {
+    text-align: center;
+}
+
+#ct4-content img {
+    width: 65%;
+    margin: auto;
+}
+                                           
+                                           /*end content 4: cÃ¡c chÆ°Æ¡ng trÃ¬nh du há»c chá»§ yáº¿u*/
+									/*content 5: Các chương trình học bổng*/
+#ct5-content .col-2dot4,
+#ct5-content .col-sm-2dot4,
+#ct5-content .col-md-2dot4,
+#ct5-content .col-lg-2dot4,
+#ct5-content .col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+ }
+
+#ct5-content .col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+#ct5-title {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#ct5-title h4 {
+    color: #fff;
+    font-weight: bold;
+}
+
+#ct5-content .card-body {
+    padding: 20px 10px;
+}
+
+#ct5-content .card-body hr {
+    border: 1px solid #fff;
+    width: 73%;
+    margin: auto;
+}
+
+#ct5-content .card {
+    background: #e74c3c;
+    text-align: center;
+}
+
+#ct5-content .card .card-body img {
+    width: 20%;
+}
+
+#ct5-content .card .card-body p {
+    color: #fff;
+    margin-top: 20px;
+    height: 13vh;
+}
+
+#content5 {background: #e74c3c;padding: 3% 0%;}
+
+#ct5-content .card-img-top {
+    width: 75%;
+    margin: auto;
+}
+
+#ct5-content h5 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media (min-width: 540px) {
+    #ct5-content .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width: 720px) {
+    #ct5-content .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width: 960px) {
+    #ct5-content .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    #ct5-content .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+									/*end content 5: Các chương trình học bổng*/
