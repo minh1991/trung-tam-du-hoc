@@ -597,3 +597,239 @@ div#carouselExampleControls {
     }
 }
 									/*end content 5: Các chương trình học bổng*/
+									/*content 6 :trường nhật*/
+
+#ct6-content .btn {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+#ct6-content .card-text {
+    height: 16vh;
+    overflow: hidden;
+}
+
+#ct6-content .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    height: 7vh;
+}
+
+#ct6-content .card-body {
+    padding: 20px 10px;
+}
+
+#ct6-content .truongtieng .view img {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#ct6-content .truongtieng {
+    margin-bottom: 20px;
+}
+									/*end content 6 :trường nhật*/
+									/*conent 7: hình ảnh*/
+
+#content7 #tieude .lines-trangtri i {
+   font-size: 35px;
+    position: relative;
+    top: -18px;
+    line-height: 35px;
+    background: #e3b3ed;
+    padding: 0px 8px;
+}
+
+#content7 #tieude .lines-trangtri {
+    border: 2px solid #2d3e50;
+    height: 0;
+    padding: 0;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    top: -25%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#content7 #tieude h2 {
+    font-size: 190%;
+    color: #2d3e50;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+#content7 .imgshow ul li {
+    float:  left;
+    width: calc(100%/4);
+    list-style: none;
+}
+
+#content7 .imgshow ul li a {
+    width: 100%;
+    /* position: relative; */
+}
+
+#content7 .imgshow ul li img {
+    width: 100%;
+    /* position: relative; */
+    filter: brightness(90%);
+}
+
+#content7 .imgshow figure {
+    margin: 5px;
+    text-align: center;
+    display: block;
+    margin: 0;
+    position: relative;
+}
+
+#content7 .imgshow figcaption {
+    background: aqua;
+    position: absolute;
+    top: 69%;
+    left: 0%;
+    z-index: 4;
+    text-align: center;
+}
+
+#content7 .imgshow figure h5 {
+    text-decoration: none;
+    color: gray;
+    margin: 0;
+}
+
+#content7 .imgshow-bg h4 {
+    text-decoration: none;
+    color: beige;
+    font-weight:  bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#content7 .imgshow-bg p {
+    text-decoration: none;
+    color: beige;
+    margin: 0;
+}
+
+#content7 #control-buttons a {
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#content7 #control-buttons ul li {
+    display: inline-block;
+}
+.imgshow-bg {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    text-align: center;
+    height: 45%;
+    width: 100%;
+    background-image: -webkit-linear-gradient(90deg, #904c4c87 25%, #6455557a 50%, #3030309c 65%, #15151500 85%);
+}
+
+div#content7 {
+    width: 100%;
+    background-image: url('../web img/13925hinh-nen-powerpoint-nen-tim-nhat1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1%;
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+
+#content7 .text-center {
+    padding-bottom: 1%;
+}
+@media (max-width: 375px) {  /*set cho mÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â n ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“iÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡n thoÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡i (iphone)*/
+    #content7 .imgshow ul li{
+        width: 100%;
+    }
+}
+@media (min-width: 376px) and (max-width: 1024px) {
+    #content7 .imgshow ul li{
+        width: 50%;
+    }
+}
+
+
+									/*content 9 : map địa chỉ*/
+div#content9 {
+    background: #1f1f1f;
+    padding-bottom: 3%;
+}
+#content9 .col-5.col-sm-5.col-md-5.col-lg-5 {
+    padding: 0;
+}
+#buttom-left .row {
+    padding-top: 20px;
+}
+#logo-buttom {
+    padding: 5px;
+}
+#logo-buttom img {
+    width: 100%;
+}
+#ten-buttom {
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    font-family: 'Convergence';
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-shadow: 2px 1px 1px #ff6666;
+}
+#ten-buttom h3 {
+    font-size: 34px;
+}
+#buttom-right {
+    color: #fff;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding: 0;
+    width: 125%;
+    margin: 0%;
+}
+#buttom-right h4 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 4%;
+}
+#buttom-right p {
+    font-size: 18px;
+    padding-left: 1%;
+}
+#buttom-right {
+    color: #fff;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding: 0;
+    width: 125%;
+    margin: 0%;
+}
+#buttom-right .row {
+    text-align: center;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+}
+#buttom-right img {
+    width: 18%;
+    height: 100%;
+    padding: 2%;
+}
+.fb {
+    width: 380px;
+    background: aqua;
+    height: 200px;
+    color: black;
+    /* margin: auto; */
+}
+#buttom-right iframe {
+    width: 100%;
+    height: 100%;
+}
+									/*end content 9: map địa chỉ*/
