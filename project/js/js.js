@@ -1,4 +1,14 @@
 $(function () {
+	//hiệu ưng Wow
+	new WOW().init();
+	//content 1 : animation
+	$('#slide2 button').addClass('animated delay-1s flip');
+	$('#slide3 button').addClass('animated delay-1s tada');
+	$('#slide4 button').addClass('animated delay-1s wobble');
+	//content 6 
+	$('#content6 button').addClass('animated delay-1s zoomIn');
+
+
 	//set hiệu ứng isotope
 	// init Isotope
 var $grid = $('.imgshow').isotope({
