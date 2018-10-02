@@ -1,19 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Open+Sans:400i');
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#page {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+.backside .card-body button {
+    background-image: -webkit-linear-gradient(-45deg, #ff7ea8 25%, #8c2f4e 51%);
 }
 
 #wold-clock {
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 2%;
     z-index: 10;
     width: 25%;
+    opacity: 0.7;
 }
 
 .card .card-body p {
     margin-top: 15%;
     margin-bottom: 15%;
+}
+
+.card .card-body .card-text {
+    color: #0f6e57;
+    font-size: 1.1rem;
 }
 
 .backside .card-text {
@@ -38,30 +97,37 @@
 .name {
     width: 100%;
     height: 15vh;
+    position: fixed;
+    z-index: 2;
+    top: 26%;
 }
 
 #logo {
 }
 
 #ngonngu {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 2%;
     text-align: center;
     width: 20%;
+    z-index: 2;
 }
 
 .logo {
     width: 100%;
     height: 24vh;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 #logo .tt-logo {
-    width: 15%;
-    position: absolute;
+    width: 10%;
+    position: fixed;
     top: 10px;
-    left: 42.5%;
+    left: 44.5%;
     right: 42.5%;
     z-index: 10;
 }
@@ -73,6 +139,18 @@
 img {
     width: 100%;
     height: auto;
+}
+
+#bg-1 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.65;
 }
 /*Clocj*/
 .jcgmt-container {
@@ -112,7 +190,7 @@ img {
 .jcgmt-date {
     font-weight:bold;
     font-size: 12px;
-    color: #444444;
+    color: #fffdfd;
     text-align:center;
     margin-left:8px;
 }
@@ -125,6 +203,10 @@ img {
 #team {
     background: #eee0 !important;
     padding: 0;
+    position: fixed;
+    z-index: 2;
+    top: 42%;
+    left: 10%;
 }
 
 .btn-primary:hover,
@@ -154,7 +236,8 @@ section .section-title {
 
 #team .card {
     border: none;
-    background: #ffffff;
+    background: #ffc311;
+    opacity: 0.8555555;
 }
 
 .image-flip:hover .backside,
@@ -236,7 +319,8 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    font-weight: 500;
+    color: #ffffff !important;
 }
 
 .frontside .card .card-title,
