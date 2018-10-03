@@ -5,46 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#tongtien {
-    font-size: xx-large;
-    font-weight: 400;
-    margin-left: 12%;
-}
-
-#socap-img1 .modal-body input {
-    width: 20%;
-    text-align: center;
-    margin-left: 10%;
-}
-
-#socap-img1 .modal-body .sc-img-bt {
-    width: 100%;
-    text-align: center;
-}
-
-#socap-img1 .modal-body h4 {
-    font-size: 50px;
-    font-weight: 500;
-}
-
-#socap-img1 .modal-body .cost {
-    width: 14%;
-    text-align: center;
-    margin-left: 20px;
-}
-
-#socap-img1 .modal-body button {
-    width: 65%;
-    border-radius: 10px;
-    background: #dc3545;
-}
-
-#gtvtt-quatrinh .gtvtt-clip {
-    width: 50%;
-    height: 50vh;
-    margin: auto;
-    border-radius: 15px;
-}
 
 
 
@@ -1549,6 +1509,47 @@ background-color: #4D4D4d;
 
 .md-form input[type=date]+label:after, .md-form input[type=datetime-local]+label:after, .md-form input[type=email]+label:after, .md-form input[type=number]+label:after, .md-form input[type=password]+label:after, .md-form input[type=search-md]+label:after, .md-form input[type=search]+label:after, .md-form input[type=tel]+label:after, .md-form input[type=text]+label:after, .md-form input[type=time]+label:after, .md-form input[type=url]+label:after, .md-form textarea.md-textarea+label:after {
     width: 100px;
+}
+
+#tongtien {
+    font-size: xx-large;
+    font-weight: 400;
+    margin-left: 12%;
+}
+
+#socap-img1 .modal-body input {
+    width: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#socap-img1 .modal-body .sc-img-bt {
+    width: 100%;
+    text-align: center;
+}
+
+#socap-img1 .modal-body h4 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#socap-img1 .modal-body .cost {
+    width: 14%;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#socap-img1 .modal-body button {
+    width: 65%;
+    border-radius: 10px;
+    background: #dc3545;
+}
+
+#gtvtt-quatrinh .gtvtt-clip {
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    border-radius: 15px;
 }
 
                             /*QuÃƒÂ¡ trÃƒÂ¬nh hoÃ¡ÂºÂ¡t Ã„â€˜Ã¡Â»â„¢ng*/
