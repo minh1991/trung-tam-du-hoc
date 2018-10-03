@@ -1373,3 +1373,15 @@ div#content9 {
 #nhantuvanngay .md-form label {
     color: #fff;
 }
+
+/*back to top*/
+.lentop {display:none;bottom: 5%;right: 17px;cursor: pointer;position: fixed;z-index: 1000;}
+.lentop div {
+    background-image: url('../web img/giphy (2).gif');
+    background-size: cover;
+    border:2px solid #fff;
+    border-radius:45px;
+    padding:11px 12.5px;
+    box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    }
+.lentop img {width: 47px;height: 47px;}
