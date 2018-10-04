@@ -1,10 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Open+Sans:400i');
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
+#content2 .ct2-img3 {
+    background: #d7869b59;
+    border-radius: 10px;
+    box-shadow: -14px -13px 19px 1px #5f606680;
+}
 
+#content2 .ct2-img1 {
+    background: #438f7847;
+    border-radius: 10px;
+    box-shadow: 8px 12px 20px 4px #e898697a;
+}
 
+#content2 .card-body .text strong {
+    color: #fff;
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+}
+
+#content2 .card-body .text p {
+    color: aliceblue;
+    font-size: 18px;
+    background: #501a1d99;
+}
+
+#content2 .card-body .mb-4 {
+    background: #c9374f36;
+    padding: 1% 2%;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0px 8px 19px 2px #3d1a19ba;
+}
+
+#content2 .card-body .ct3-text1 h4 {
+    width: 50%;
+    margin: auto;
+}
+
+#content2 .card-body .ct3-text2 h4 {
+    width: 78%;
+    margin: auto;
+}
+
+#content2 .card-body .ct3-text3 h4 {
+    width: 90%;
+    margin: auto;
+}
+#content3 {
+    background: url('../web img/jezael-melgoza-748008-unsplash.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#content4 {
+    background: url('../web img/hinh nen content2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#content5{
+    background: url('../web img/2057adc9de6eda8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 body img{
     width: 100%;
@@ -134,7 +202,7 @@ body img{
 }
 
 /*end menu*/
-/*content 1: khÃƒÆ’Ã‚Â³a hÃƒÂ¡Ã‚Â»Ã‚Âc nÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i bÃƒÂ¡Ã‚ÂºÃ‚Â­t*/
+/*content 1:t*/
 
 #content1 .text .button {
     text-align: center;
@@ -147,9 +215,10 @@ body img{
 
 #content1 .text .btn {
     width: 50%;
-    background: #063080;
     color: #fff;
     font-size: medium;
+    background-image: -webkit-linear-gradient(-62deg, #6610f2 30%, #8c2f4e 81%);
+    border-radius: 15px;
 }
 
 #content1 .text .ct1-rating {
@@ -165,20 +234,189 @@ body img{
 }
 
 #content1 .text .green-text img {
-    width: 9%;
+    width: 12%;
     padding: 0 2%;
 }
 
 #content1 .text .green-text h6 {
     font-weight: 500;
     color: #063080;
+    width: 56%;
+    font-size: 19px;
+}
+
+#ct1-kh2 .text .green-text h6, #ct1-kh4 .green-text h6 {
+    text-align: right;
 }
 
 #content1 .text .mb-4 {
     padding: 0 3%;
 }
-/*end content 1: khÃƒÆ’Ã‚Â³a hÃƒÂ¡Ã‚Â»Ã‚Âc nÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i bÃƒÂ¡Ã‚ÂºÃ‚Â­t*/
-/*content 2: ChÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i sÃƒÂ¡Ã‚ÂºÃ‚Â½*/
+#ct1-kh1 .card-body {
+    background: url('../web img/manuel-cosentino-691602-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#ct1-kh2 .card-body {
+    background: url('../web img/50-Beautiful-and-Minimalist-Presentation-Backgrounds-02.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ct1-kh3 .card-body {
+    background: url('../web img/w-349443-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+#ct1-kh4 .card-body {
+    background: url('../web img/willian-justen-de-vasconcellos-603962-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#content1 .green-text h6:hover {
+    background: #ef5777;
+    padding: 1%;
+    -webkit-text-fill-color: white;
+}
+
+#ct1-kh1 .green-text h6:hover {
+    padding-left: 20%;
+}
+
+#ct1-kh3 .green-text h6:hover {
+    padding-left: 20%;
+}
+
+#content1 .green-text h6 {
+    padding: 1% 1%;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+}
+
+#ct1-kh2 .green-text h6, #ct1-kh4 .green-text h6 {
+    border-top-left-radius: 121px;
+    border-top-right-radius: 10px;
+}
+
+#ct1-kh2 .green-text h6 {}
+
+#ct1-kh2 .text .green-text h6:hover {
+    padding-right: 20%;
+}
+
+#ct1-kh4 .text .green-text h6:hover {
+    padding-right: 20%;
+}
+
+#ct1-kh1 .text .ct1-lkg-ct i {
+    color: #470088;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#ct1-kh2 .text .ct2-lkg-ct i {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#ct1-kh2 .text .ct1-lkg-ct i {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#ct1-kh3 .text .ct1-lkg-ct i {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#ct1-kh4 .text .ct1-lkg-ct i {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#ct1-kh1 .text .ct1-lkg strong {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+#ct1-kh2 .text .ct1-lkg strong {
+    color: white;
+    font-size: 20px;
+}
+
+#ct1-kh3 .text .ct1-lkg strong {
+    color: white;
+    font-size: 20px;
+}
+
+#ct1-kh4 .text .ct1-lkg strong {
+    color: white;
+    font-size: 20px;
+}
+
+#ct1-kh1 .text h4 strong {
+    color: #063080;
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+}
+
+#ct1-kh2 .text h4 strong {
+    color: #063080;
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+}
+
+#ct1-kh3 .text h4 strong {
+    color: #ffffff;
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+}
+
+#ct1-kh4 .text h4 strong {
+    color: #ffffff;
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+}
+
+#ct1-kh1 .text .ct-content-text {
+    color: #4f0099;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#ct1-kh2 .text .ct-content-text {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#ct1-kh3 .text .ct-content-text {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#ct1-kh4 .text .ct-content-text {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+/*end content 1: */
+/*content 2: */
 #content2 #tieude .lines-trangtri i {
     font-size: 35px;
     position: relative;
@@ -207,19 +445,26 @@ body img{
     margin-bottom: 1%;
 }
 
-/* END content 2: ChÃƒÆ’Ã‚Âºng tÃƒÆ’Ã‚Â´i sÃƒÂ¡Ã‚ÂºÃ‚Â½*/
-/*content 3: Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™*/
+#content2 .card-body {
+    background: url('../web img/david-guenther-639347-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* END content 2: */
+/*content 3:*/
 #content3 #tieude .lines-trangtri i {
     font-size: 35px;
     position: relative;
     top: -18px;
     line-height: 35px;
-    background: #f1f1f1;
+    background: #0f3fbb;
     padding: 0px 8px;
 }
 
 #content3 #tieude .lines-trangtri {
-    border: 2px solid #2d3e50;
+    border: 1px solid aliceblue;
     height: 0;
     padding: 0;
     width: 30%;
@@ -232,8 +477,9 @@ body img{
 
 #content3 #tieude h2 {
     font-size: 190%;
-    color: #2d3e50;
+    color: aliceblue;
     font-weight: bold;
+    margin-top: 1%;
     margin-bottom: 1%;
 }
 
@@ -247,12 +493,15 @@ body img{
     width: 30%;
     margin: auto;
     border-radius: 10px;
+    margin-bottom: 2%;
+    background-image: -webkit-linear-gradient(240deg, #ffa59e 30%, #f44336 81%);
 }
 
 #ct3-button button a {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
+    color: aliceblue;
 }
 
 #ct3-content {
@@ -260,20 +509,22 @@ body img{
 }
 
 #ct3-content .ct3-content h4 {
-    border: 1px solid black;
+    border: 1px solid #f44336;
     width: 100%;
     padding: 5% 0%;
     font-weight: 500;
-    color: black;
+    color: aliceblue;
     border-radius: 15px;
+    background: #F44336;
+    box-shadow: -2px 2px 20px 5px #640802bd;
 }
 
 #ct3-content .ct3-content img {
     width: 27%;
     padding: 0px 5%;
 }
-/*END content 3: Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã†â€™ bÃƒÂ¡Ã‚ÂºÃ‚Â¡n cÃƒÆ’Ã‚Â³ thÃƒÂ¡Ã‚Â»Ã†â€™*/
-/*content4 : lÃ¡Â»â€¹ch khai giÃ¡ÂºÂ£ng*/
+/*END content Ãƒâ€šÃ‚Â¢*/
+/*content4 : */
 #content4 #tieude .lines-trangtri i {
     font-size: 35px;
     position: relative;
@@ -310,6 +561,7 @@ body img{
 
 #content4 tr td {
     padding: 0px 10px;
+    font-weight: 500;
 }
 
 #content4 tr td button a {
@@ -317,8 +569,8 @@ body img{
 }
 /*END TABLE*/
 
-/*END content4 : lÃ¡Â»â€¹ch khai giÃ¡ÂºÂ£ng*/
-/*content5 : thÆ° viá»‡n áº£nh*/
+/*END content4 : */
+/*content5 : */
 #ct5-tieude .lines-trangtri i {
     font-size: 35px;
     position: relative;
@@ -349,6 +601,8 @@ body img{
 
 #ct5-content .card-body {
     text-align: center;
+    background: #ff8800;
+    color: aliceblue;
 }
 
 #ct5-content .card-body h4 {
@@ -358,8 +612,8 @@ body img{
 #ct5-content .view img {
     height: 35vh;
 }
-/*END content5 : thÆ° viá»‡n áº£nh*/
-/*content 6: chia sẻ của học viên*/
+/*END content5 : */
+/*content 6: */
 #ct6-tieude .lines-trangtri i {
     font-size: 35px;
     position: relative;
@@ -480,8 +734,7 @@ body img{
     font-weight: 500;
     text-shadow: 2px 2px 2px #000;
 }
-/*END content 6: chia sẻ của học viên*/
-            /*map Ä‘á»‹a chá»‰*/
+/*END content 6: Ã‚Â°*/
 div#content7 {
     background: #1f1f1f;
     padding-bottom: 3%;

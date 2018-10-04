@@ -11,7 +11,6 @@ $(function () {
 	$('.lentop img').addClass('animated slower infinite shake');
 	
 	// nút xem thêm phần ảnh
-
 	$('#content4 .load').slideUp(0);
 	$('#content4 .load-button .btn').click(function(event) {
 		$('#content4 .load').slideDown(200);
