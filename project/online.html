@@ -68,16 +68,22 @@
                                 <div class="collapse navbar-collapse" id="basicExampleNav">
                                     <!-- Links -->
                                     <ul class="navbar-nav mr-auto">
-                                        <li class="nav-item active">
-                                            <a class="nav-link" href="#">Lộ trình học Tiếng Nhật
+                                        <li class="nav-item active mn-lotrinhhoctap">
+                                            <a class="nav-link" href="online.html">Lộ trình học tập
                                                 <span class="sr-only">(current)</span>
                                             </a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Phương pháp học Tiếng Nhật</a>
+                                        <li class="nav-item mn-phuongphaphoc">
+                                            <a class="nav-link" href="#content2">Phương pháp học tập</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Chia sẻ của Học viên</a>
+                                        <li class="nav-item mn-chiase">
+                                            <a class="nav-link" href="#content3">Góc chia sẻ</a>
+                                        </li>
+                                        <li class="nav-item mn-giaovien">
+                                            <a class="nav-link" href="#content4">Giáo Viên</a>
+                                        </li>
+                                        <li class="nav-item mn-tuvan">
+                                            <a class="nav-link" href="#content5">Đăng ký tư vấn</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -86,13 +92,97 @@
                             <!--/.Navbar-->
                         </div>
                         <div class="col-lg-4" id="menu-button"><!-- nút đăng nhập/ Đăng ký -->
-                            <button type="button" class="btn waves-light dangnhap">Đăng Nhập</button>
-                            <button type="button" class="btn waves-light dangky">Đăng Ký</button>
+                            <a href="" data-toggle="modal" data-target="#modal-dangnhap"><button type="button" class="btn waves-light dangnhap">Đăng Nhập</button></a>
+                            <a href="" data-toggle="modal" data-target="#modal-dangky"><button type="button" class="btn waves-light dangky">Đăng Ký</button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- modal menu -->
+     <div class="modal fade" id="modal-dangnhap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Đăng Nhập</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="social"> 
+                <a class="circle apple"> <i class="fa fa-apple fa-fw"></i> </a> 
+                <a id="google_login" class="circle google"> <i class="fa fa-google fa-fw"></i> </a> 
+                <a id="facebook_login" class="circle facebook"> <i class="fa fa-facebook fa-fw"></i> </a> 
+            </div>
+            <div class="modal-body mx-3">
+                 <div class="md-form mb-5">
+                    <i class="fa fa-user prefix text-white"></i>
+                    <input type="text" id="orangeForm-name" class="form-control validate white-text">
+                    <label data-error="wrong" data-success="OK" for="orangeForm-name">Tên Đăng Nhập</label>
+                </div>
+
+                <div class="md-form mb-4">
+                    <i class="fa fa-lock prefix text-white"></i>
+                    <input type="password" id="defaultForm-pass" class="form-control validate white-text">
+                    <label data-error="wrong" data-success="OK" for="defaultForm-pass">Password</label>
+                </div>
+
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button class="btn">Đăng Nhập</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+     <div class="modal fade" id="modal-dangky" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Đăng Ký</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="social">
+                <p>Đăng ký bằng:</p>
+                <a class="circle apples"> <i class="fa fa-apple fa-fw"></i> </a> 
+                <a id="google_login" class="circle google"> <i class="fa fa-google fa-fw"></i> </a> 
+                <a id="facebook_login" class="circle facebook"> <i class="fa fa-facebook fa-fw"></i> </a> 
+                    <hr>
+            </div>
+            <div class="modal-body mx-3">
+                <!-- Default form register -->
+                <form class="text-center border border-light p-3">
+                    <div class="form-row mb-4">
+                <!-- First name -->
+                        <div class="col"><input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Họ"></div>
+                <!-- Last name -->
+                        <div class="col"><input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Tên"></div>
+                    </div>
+                <!-- E-mail -->
+                    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+                <!-- Password -->
+                    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text mb-4">Nhập vào ít nhất là 8 ký tự và có 1 con số</small>
+                <!-- Phone number -->
+                    <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Số điện thoại của bạn" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                <!-- Newsletter -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+                    <label class="custom-control-label" for="defaultRegisterFormNewsletter">Xác nhận để luôn nhận được các thông tin mới nhất về chúng tôi</label>
+                </div>
+                <!-- Terms of service -->
+                <p>Bạn đồng ký với<a href="" target="_blank"> Điều khoản dịch vụ</a> và<a href="" target="_blank"> Các quy định hoạt động</a> của chúng tôi </p>
+                
+                </form> 
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn" type="submit">Đăng Ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
                                         <!-- end menu -->
 
@@ -103,25 +193,43 @@
                 <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
                     <!-- Cứ 5s sẽ chuyển slide một lần. nút next và prev full height -->
                     <div class="carousel-inner" id="slide-content"> <!-- ảnh slide -->
-                        <div class="carousel-item active" id="slide1">
-                            <img id="cogai1" src="web img/Japanese-and-Korean-Girls-School-Uniforms-British-Student-Uniform-Grey-Sweater-Lace-Plaid-Skirt-Suit-Class.png" alt>
+                        <div class="carousel-item" id="slide1">
+                            <img id="cogai1" src="web img/slider2-img01.png" alt>
                             <img id="haoquang1" src="web img/home_sitter_slider_texture_1.png">
-                            <img id="haoquang2" src="web img/home_sitter_slider_texture_2.png">                          
-                            <button type="button" class="btn btn-primary"><a href>Vể chúng tôi</a></button>
-                            <img id="sachvo" src="web img/img01.png">
-                            <img id="cauvong" src="web img/home_sitter_slider_texture_3.png">
-                            <img id="may1" src="web img/cloud-37097_960_720.png">
+                            <img id="haoquang2" src="web img/home_sitter_slider_texture_2.png"> <img id="may1" src="web img/cloud-37097_960_720.png">
                             <img id="may2" src="web img/cloud-47582_960_720.png">
-                           
+                            <div id="slide1-text">Khóa học Tiếng Nhật sơ cấp</div>                         
+                            <button type="button" class="btn waves-effect waves-light"><a href="">Tìm hiểu ngay</a></button>
                             <img class="d-block w-100" src="web img/backgroud111.jpg" alt="First slide">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item  active" id="slide2">
+                            <img src="web img/b6ceeb662923f1e7ce9adf47b9c2c31d.png" id="slide2-img1">
+                            <img src="web img/call-center-girl-400x291.png" id="slide2-img2">
+                            <div id="slide2-text">
+                                <h4>Tiếng Nhật Online</h4>
+                                <p>nơi bạn có thể tìm thấy các khóa học Tiếng Nhật Online. Học mọi lúc mọi nơi, với công nghệ hiện đại nhất</p>
+                            </div>
+                            <button type="button" class="btn waves-effect waves-light"><a href="">Tìm hiểu ngay</a></button>
                             <img class="d-block w-100" src="web img/backgroud21.jpg" alt="Second slide">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" id="slide3">
+                            <img src="web img/Callcenter.png" id="slide3-img1">
+                            <img src="web img/img01.png" id="slide3-img2">
+                            <div id="slide3-text">
+                                <h4>Khóa học Trung Cấp</h4>
+                                <p>Bạn có thể tìm hiểu các khóa học sau N4. Mục tiêu là có thể đỗ N3 và hỗ trợ thi N2</p>
+                            </div>
+                            <button type="button" class="btn waves-effect waves-light"><a href="">Tìm hiểu ngay</a></button>
                             <img class="d-block w-100" src="web img/backgroud31.jpeg" alt="Third slide">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" id="slide4">
+                            <img src="web img/Rochelle-Planes.png" id="slide4-img1">
+                            <img src="web img/japanese_girl_png_by_abagil_by_abagil-d97846t.png" id="slide4-img2">
+                            <div id="slide4-text">
+                                <h4>Khóa học thượng cấp</h4>
+                                <p>Nơi bạn có thể tìm thấy các khóa học để hoàn thiện tiếng Nhật. Mục tiêu đỗ N2</p>
+                            </div>
+                            <button type="button" class="btn waves-effect waves-light"><a href="">Tìm hiểu ngay</a></button>
                             <img class="d-block w-100" src="web img/backgroud4.jpg" alt="Fout slide">
                         </div>
                     </div>
@@ -149,8 +257,8 @@
             <div class="row" id="tieude"> <!-- tiêu đề -->
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="text-center">
-                        <h2>Lộ trình cho bạn</h2>
-                        <div class="lines-trangtri"><i class="fa fa-diamond" aria-hidden="true"></i></div>
+                        <h2>Lộ trình học Tiếng Nhật cho bạn</h2>
+                        <div class="lines-trangtri"></i></div>
                     </div>        
                 </div>
             </div>
@@ -498,7 +606,7 @@
                          <!-- end content3: để học tiếng Nhật hiệu quả -->
                          <!-- content4: chia sẻ của học viên -->
     <div id="content4">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row" id="ct4-title">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                     <div><h4>Chia sẻ của học viên</h4></div>
@@ -694,9 +802,9 @@
             height: 300,
             width: 400,
             depth: 275,
-            perspective: 2000,
-            pauseTime: 1500,
-            transitionDuration: 1000,
+            perspective: 5000,
+            pauseTime: 3500,
+            transitionDuration: 3000,
             transitionEffect: "ease-in-out",
             autostart: true,
             rightSelector: ".right",
