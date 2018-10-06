@@ -5,6 +5,33 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#menu-top .bottom .nav-link {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+#menu-top .bottom {
+    position: fixed;
+    z-index: 100;
+    width: 85%;
+    background: url('../web img/gradient-background-images-6204-6478-hd-wallpapers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+}
+
+#content4 .table tr button {
+    background: #c62828;
+}
+
+#content4 .table tr button a {
+    color: #fff;
+}
+
+#modal-dangnhap .modal-title {
+    color: #fff;
+}
+
 #content2 .ct2-img3 {
     background: #d7869b59;
     border-radius: 10px;
@@ -51,6 +78,14 @@
     width: 90%;
     margin: auto;
 }
+#content2{
+    background: url('../web img/annie-spratt-525824-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 #content3 {
     background: url('../web img/jezael-melgoza-748008-unsplash.jpg');
     background-position: bottom;
@@ -65,6 +100,8 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #content5{
@@ -72,6 +109,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 body img{
@@ -93,6 +132,11 @@ body img{
 
 #basicExampleNav li.nav-item {
     padding-left: 10px;
+    transition: 1s;
+}
+
+#basicExampleNav li.nav-item:hover {
+    border-bottom: 1px solid red;
 }
 
 
@@ -102,7 +146,7 @@ body img{
 }
 
 #logo img.img-fluid {
-    width: 85%;
+    width: 58%;
 }
 
 #logo {
@@ -122,7 +166,7 @@ body img{
 
 
 #menu-button button {
-    width: 163px;
+    width: 150px;
     margin: 2% 1%;
     padding-left: 0;
     padding-right: 0;
@@ -200,7 +244,26 @@ body img{
 #sdt .card i {
     padding-right: 10px;
 }
-
+#menu-duoi .nav-item.mn-tiengnhatonline.vitri-line {
+    border-bottom: 4px solid #063080;
+    transition: 2s;
+}
+#menu-duoi .nav-item.mn-chungtoise.vitri-line {
+    border-bottom: 4px solid #ffcb32;
+    transition: 2s;
+}
+#menu-duoi .nav-item.mn-trainghiem.vitri-line {
+    border-bottom: 4px solid #4bcffa;
+    transition: 2s;
+}
+#menu-duoi .nav-item.mn-lichkhaigiang.vitri-line {
+    border-bottom: 4px solid #ef5777;
+    transition: 2s;
+}
+#menu-duoi .nav-item.mn-thuvienanh.vitri-line {
+    border-bottom: 4px solid #aa66cc;
+    transition: 2s;
+}
 /*end menu*/
 /*content 1:t*/
 
@@ -427,7 +490,7 @@ body img{
 }
 
 #content2 #tieude .lines-trangtri {
-    border: 2px solid #2d3e50;
+    border: 2px solid aliceblue;
     height: 0;
     padding: 0;
     width: 30%;
@@ -440,7 +503,7 @@ body img{
 
 #content2 #tieude h2 {
     font-size: 190%;
-    color: #2d3e50;
+    color: aliceblue;
     font-weight: bold;
     margin-bottom: 1%;
 }
@@ -810,4 +873,271 @@ div#content7 {
 #buttom-right iframe {
     width: 100%;
     height: 100%;
+}
+
+
+#dk-tructuyen .close {
+    color: #ffff;
+}
+
+#dk-tructuyen .modal-content {
+    background: url('../web img/sakura-blossoms-background-picture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+#dk-tructuyen .modal-content .modal-body .md-form {margin-top: 0px;}
+
+#dk-tructuyen .modal-content .modal-footer button {
+    width: 70%;
+    background: #880e4f;
+    background-image: -webkit-linear-gradient(-45deg, #ff7ea8 25%, #8c2f4e 51%);
+    border-radius: 10px;
+}
+#dk-tructuyen .md-form label {
+    color: #fff;}
+
+#modal-dangnhap .modal-content {
+    background: url('../web img/sakura-blossoms-background-picture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#modal-dangnhap .social, #modal-dangky .social, #modal-dangky-kh .social {float: none;margin: 2% auto 1%;text-align: center;}
+ 
+#modal-dangnhap .social .circle, #modal-dangky .social .circle, #modal-dangky-kh .social .circle {background-color: #ffffff;color: #000000;-moz-border-radius: 100px;-webkit-border-radius: 100px;border-radius: 100px;display: inline-block;margin: 0 7px;padding: 7px;}
+ 
+#modal-dangnhap .social .circle .fa, #modal-dangky .social .circle .fa, #modal-dangky-kh .social .circle .fa {font-size: 18px;}
+ 
+#modal-dangnhap .social .facebook, #modal-dangky .social .facebook, #modal-dangky-kh .social .facebook {background-color: #455CA8;color: #FFFFFF;}
+#modal-dangnhap .social .google, #modal-dangky .social .google, #modal-dangky-kh .social .google {background-color: #F74933;}
+ 
+#modal-dangnhap .social .apple, #modal-dangky .social .apple, #modal-dangky-kh .social .apple {/* background-color: #403A3A; */}
+ 
+#modal-dangnhap .social .facebook:hover {    
+background-color: #6E83CD;
+}
+#modal-dangky .social .facebook:hover {    
+background-color: #6E83CD;
+}
+#modal-dangky-kh .social .facebook:hover {    
+background-color: #6E83CD;
+}
+#modal-dangnhap .social .google:hover {  
+background-color: #FF7566;
+}
+#modal-dangky .social .google:hover {  
+background-color: #FF7566;
+}
+#modal-dangky-kh .social .google:hover {  
+background-color: #FF7566;
+}
+#modal-dangnhap .social .apple:hover {  
+background-color: #4D4D4d;
+}
+#modal-dangnhap .md-form label {
+    color: #fff;}
+#modal-dangky .social .apple:hover {  
+background-color: #4D4D4d;
+}
+#modal-dangky-kh .social .apple:hover {  
+background-color: #4D4D4d;
+}
+#modal-dangnhap .modal-footer button, #modal-dangky .modal-footer button, #modal-dangky-kh .modal-footer button {
+    width: 66%;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(-45deg,#b5bacc 30%,#455ca8 60%);
+}
+#modal-dangky .modal-content, #modal-dangky-kh .modal-content {
+    background: url('../web img/sakura-blossoms-background-picture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#modal-dangky, #modal-dangky-kh {
+    color: #fff;
+}
+
+#modal-dangnhap .modal-header button {
+    color: #fff;
+}
+
+#modal-dangky .modal-header, #modal-dangky-kh .modal-header {
+    padding: 2% 0%;
+}
+
+#modal-dangky .modal-body, #modal-dangky-kh .modal-body {
+    padding: 1% 1%;
+}
+
+#modal-dangky .social hr, #modal-dangky-kh .social hr {
+    background: #fff;
+    margin: 6% 0%;
+}
+
+#modal-dangky .close, #modal-dangky-kh .close {
+    position: fixed;
+    top: 2%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+}
+
+#modal-dangky .modal-body p, #modal-dangky-kh .modal-body p {
+    text-align: center;
+    font-size: large;
+}
+
+#dk-tructuyen .md-form label {
+    color: #fff;
+}
+
+#modal-dangky .modal-body p a, #modal-dangky-kh .modal-body p a {color: aqua;}
+
+#modal-dangky .custom-control label, #modal-dangky-kh .custom-control label {
+    text-align: left;
+    margin: 3% 0%;
+}
+
+#cost-a1 .modal-body input {
+    width: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#cost-a1 .modal-body .sc-img-bt {
+    width: 100%;
+    text-align: center;
+}
+
+#cost-a1 .modal-body h4 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#cost-a1 .modal-body .cost {
+    width: 14%;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#cost-a1 .modal-body button {
+    width: 65%;
+    border-radius: 10px;
+    background: #dc3545;
+}
+#tongtien {
+    font-size: xx-large;
+    font-weight: 400;
+    margin-left: 12%;
+}
+#menu-top .menu1 {
+    top: 1%;
+    width: 89%;
+    left: 13%;
+    transition: 1s;
+    background-image: -webkit-linear-gradient(90deg,#ffffff52 10%,#aea5a578 20%,#ff676678 30%,#a63d3dd4 50%,#f992a7 60%,#ff67667a 80%,#eeeeee87 95%);
+}
+#menu-top .menu1 {
+    left: 10%;
+    top: -1%;
+    transition: 1s;
+}
+
+
+#menu-top .menu2 {
+    border-top-left-radius: 100px;
+    transition: 1s;
+    top: -1.5%;
+    left: 10%;
+    width: 87%;
+    background-image: -webkit-linear-gradient(45deg,#ff6766c7 10%,#063080b8 40%,#063080c2 50%,#f992a7 60%,#ff676659 80%,#ff6766 95%);
+}
+
+#menu-top .menu3 {
+    border-bottom-left-radius: 100px;
+    top: -0.5%;
+    left: 10%;
+    width: 87%;
+    background-image: -webkit-linear-gradient(45deg,#86d9f3e6 10%,#29bcece0 40%,#1ac3fa 50%,#00bbf8de 60%,#2c86a3 80%,#049ccd 95%);
+    transition: 1s;
+}
+
+#menu-top .menu4 {
+    left: 10%;
+    width: 86%;
+    transition: 1s;
+    top: -1%;
+    border-radius: 30px;
+}
+#menu-top .bg-logo1 {
+    background: #36afba;
+    background-repeat: no-repeat;
+    box-shadow: 60px 0px 62px #36afba;
+}
+
+#menu-top .menu-top .bg-logo1 .logo img {
+    position: fixed;
+    top: 0%;
+    left: 1%;
+    z-index: 100;
+}
+
+#menu-top .menu-top .bg-logo2 .logo img {
+    position: fixed;
+    top: 0%;
+    left: 1%;
+    z-index: 100;
+    width: 7%;
+}
+
+#menu-top .menu-top .bg-logo3 .logo img {
+    position: fixed;
+    top: 0%;
+    left: 1%;
+    z-index: 100;
+    width: 7%;
+}
+
+#menu-top .menu-top .bg-logo4 .logo img {
+    position: fixed;
+    top: 0%;
+    left: 1%;
+    z-index: 100;
+    width: 7%;
+}
+#logo img.img-fluid.logo1 {
+    width: 15%;
+    left: 25%;
+    top: -1%;
+    z-index: 102;
+}
+#logo img.img-fluid.logo1 {
+    width: 10%;
+    left: 1%;
+    top: -1%;
+    z-index: 102;
+}
+
+#logo img.img-fluid.logo1 {
+    width: 7%;
+    left: 4%;
+    background-color: #41aca500;
+    box-shadow: 77px 0px 20px #41aca500;
+}
+#menu-duoi .navbar.navbar-expand-lg.navbar1 {
+    background: #ffe4c400;
+    transition: 1s;
+}
+#menu-duoi .navbar.navbar-expand-lg.navbar1 {
+    background-image: linear-gradient(white, #ff6766);
+}
+.navbar.navbar-expand-lg.navbar1 {
+    background-image: linear-gradient(white, #ff6766);
+}
+#menu-duoi .navbar.navbar-expand-lg.navbar2, #menu-duoi .navbar.navbar-expand-lg.navbar3, #menu-duoi .navbar.navbar-expand-lg.navbar4 {
+    background-image: linear-gradient(white, #ff6766);
+    border-bottom-right-radius: 100px;
+}
+nav.navbar.navbar-expand-lg.navbar2 {
+    background-image: linear-gradient(white, #ff6766);
 }

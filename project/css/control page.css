@@ -4,6 +4,10 @@
     padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
+.backside button {
+    padding: 10px 14px;
+}
 #page {
     width: 100%;
     height: 100vh;
@@ -72,7 +76,7 @@
 
 .card .card-body .card-text {
     color: #0f6e57;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 .backside .card-text {
@@ -160,13 +164,14 @@ img {
 }
 .jcgmt-container .jcgmt-lbl {
     font-size: 15px;
-    color: #333333;
+    color: #ffffff;
     line-height: 22px;
     background: url(../images/jcgmt-clock_label.png) no-repeat;
     text-align: center;
     padding-bottom: 5px;
     width: 108px;
     margin: 0 auto;
+    font-weight: 500;
 }
 .jcgmt-clockHolder {
     width:100px; 
@@ -206,7 +211,8 @@ img {
     position: fixed;
     z-index: 2;
     top: 42%;
-    left: 10%;
+    left: 30%;
+    transform: translateX(-30%);
 }
 
 .btn-primary:hover,
@@ -318,7 +324,7 @@ section .section-title {
 }
 
 .backside .card a {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     color: #ffffff !important;
 }
@@ -328,7 +334,350 @@ section .section-title {
     color: #007b5e !important;
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 17px;
+}
+
+.frontside .card .card-body img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Open+Sans:400i');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.backside button {
+    padding: 10px 14px;
+}
+#page {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+.backside .card-body button {
+    background-image: -webkit-linear-gradient(-45deg, #ff7ea8 25%, #8c2f4e 51%);
+}
+
+#wold-clock {
+    position: fixed;
+    top: 10px;
+    left: 2%;
+    z-index: 10;
+    width: 25%;
+    opacity: 0.7;
+}
+
+.card .card-body p {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.card .card-body .card-text {
+    color: #0f6e57;
+    font-size: 0.8rem;
+}
+
+.backside .card-text {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 15vh;
+}
+
+.card .card-body p img {
+    width: 10%;
+}
+
+#name {
+    width: 100%;
+    text-align: center;
+}
+
+#name img {
+    width: 25%;
+}
+
+.name {
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    z-index: 2;
+    top: 26%;
+}
+
+#logo {
+}
+
+#ngonngu {
+    position: fixed;
+    top: 20px;
+    right: 2%;
+    text-align: center;
+    width: 20%;
+    z-index: 2;
+}
+
+.logo {
+    width: 100%;
+    height: 24vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#logo .tt-logo {
+    width: 10%;
+    position: fixed;
+    top: 10px;
+    left: 44.5%;
+    right: 42.5%;
+    z-index: 10;
+}
+
+#ngonngu img {
+    width: 30%;
+    margin: 5%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+#bg-1 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.65;
+}
+/*Clocj*/
+.jcgmt-container {
+    float:left;
+    padding: 3px;
+    margin-left: 1%;
+}
+.jcgmt-container .jcgmt-lbl {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 22px;
+    background: url(../images/jcgmt-clock_label.png) no-repeat;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 108px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+.jcgmt-clockHolder {
+    width:100px; 
+    margin:0 auto;
+    position:relative;
+    overflow: hidden;
+}
+.jcgmt-sec,
+.jcgmt-min,
+.jcgmt-hour {
+    display:block;
+    position:absolute;
+}
+
+.jcgmt-rotatingWrapper {
+    position:absolute;
+    width:100px;
+    height:100px;
+}
+.jcgmt-digital,
+.jcgmt-date {
+    font-weight:bold;
+    font-size: 12px;
+    color: #fffdfd;
+    text-align:center;
+    margin-left:8px;
+}
+/*body { font-family: Arial, sans-serif; }*/
+
+
+/* content */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee0 !important;
+    padding: 0;
+    position: fixed;
+    z-index: 2;
+    top: 42%;
+    left: 30%;
+    transform: translateX(-21%);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffc311;
+    opacity: 0.8555555;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 17px;
 }
 
 .frontside .card .card-body img {
