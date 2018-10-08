@@ -30,7 +30,7 @@ $(function() {
 		} else {
 			$('#menu-duoi .nav-item.mn-tuvan').removeClass('vitri-line');
 		}
-		if ((vitrimenu>=669)&&(vitrimenu<2589)) {
+		if ((vitrimenu>=45)&&(vitrimenu<2589)) {
 			$('#menu-top .bottom').addClass('menu1');
 			$('#logo').addClass('bg-logo1');
 			$('#logo img.img-fluid').addClass('logo1');
