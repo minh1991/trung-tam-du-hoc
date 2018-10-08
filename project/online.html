@@ -272,7 +272,7 @@
                             <!-- Card image -->
                                 <div class="view overlay">
                                     <img class="card-img-top" src="web img/unnamed.png" alt="Card image cap">
-                                    <a href="#!"><div class="mask rgba-white-slight"></div></a>
+                                    <a href="#!" data-toggle="modal" data-target="#socap-img1"><div class="mask rgba-white-slight"></div></a>
                                 </div>
                             <!-- Card content -->
                                 <div class="card-body">
@@ -489,6 +489,42 @@
            
             
                                 <!-- end Lộ trình N2 -->
+    <!-- Thư viện sách -->
+    <div class="modal fade" id="socap-img1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title w-100" id="myModalLabel">Đăng ký mua sách</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 img">
+                    <img src="web img/sơ cấp/5162Z6QDP6L._SX334_BO1,204,203,200_.jpg"><hr>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                    <h2>みんなの日本語　初級　I</h2> <hr>
+                    <h4 data-cost='56000' id="cost">56.000 ₫</h4>
+                    <small>Tặng kèm đĩa CD</small>
+                    <hr>
+                    <p>Giáo trình minna no nihongo được đánh giá là một trong những giáo trình chuẩn nhất thế giới và hiện đang được hầu hết các trung tâm tiếng Nhật cũng như các trường đại học sử dụng cho quá trình giảng dạy. Để tự học tiếng nhật sơ cấp thật tốt thì bạn nên làm quen với giáo trình minna no nihongo.</p>
+                    <h5>Số lượng: <input id="soluon" type="number" name="" min="1" /></h5>
+                    <hr>
+                    <p>Tổng giá trị thanh toán:  <span id="tongtien"></span></p>
+                    <hr> 
+                    <div class="sc-img-bt"><button class="btn">Thêm vào giỏ</button></div>
+                </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Central Modal Small -->
                                 <!-- end content 2: Lộ trình cho bạn --> 
                                 <!-- content3: để học tiếng Nhật hiệu quả -->
     <div id="content3">
@@ -574,7 +610,7 @@
                                 </div>
                               <!-- Card content -->
                                 <div class="card-body">
-                                    <p class="card-text">Trao đổi trực tiếp với giảng viên</p>
+                                    <p class="card-text">Trực tiếp với giảng viên</p>
                                 </div>
                             </div>                           
                         </div>
@@ -732,7 +768,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="ct6-center">
                         <div class="row"><h4>Chinh phục Tiếng Nhật cùng chúng tôi</h4></div>
-                        <div class="row"><button type="button" class="btn waves-light dangky">Đăng ký tư vấn và sẵn sàng chinh phục</button></div>
+                        <div class="row"><button type="button" class="btn waves-light dangky" data-toggle="modal" data-target="#nhantuvanngay">Đăng ký tư vấn và sẵn sàng chinh phục</button></div>
                     </div>
                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="ct6-right">
                         <img src="web img/mayu_watanabe__akb48__png__render__by_sellscarol-d663ggh.png">
@@ -740,6 +776,62 @@
                 </div>
             </div>
         </div>
+        <!-- nhận tư vấn ngay -->
+    <div class="modal fade" id="nhantuvanngay" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Đăng Ký Tư Vấn</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body mx-3">
+                <div class="md-form mb-3">
+                    <i class="fa fa-user prefix text-white"></i>
+                    <input type="text" id="nhantuvanngay-tencuaban" class="form-control validate text-white">
+                    <label data-error="Nhập lại" data-success="OK" for="nhantuvanngay-tencuaban">Tên của bạn</label>
+                </div>
+
+                <div class="md-form mb-3">
+                    <i class="fa fa-envelope prefix text-white"></i>
+                    <input type="email" id="nhantuvanngay-mail" class="form-control validate text-white">
+                    <label data-error="Nhập lại" data-success="Ok" for="nhantuvanngay-mail">E-mail</label>
+                </div>
+                <div class="md-form mb-3">
+                    <i class="fa fa-mobile-phone prefix text-white" aria-hidden="true"></i>
+                    <input type="text" id="nhantuvanngay-sdt" class="form-control validate text-white" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                    <label data-error="Nhập lại" data-success="OK" for="nhantuvanngay-sdt">Số điện thoại</label>
+                </div>
+
+                <div class="md-form mb-2">
+                    <form class="text-center border-light pt-5 text-white">
+                    <label>Lựa chọn chủ đề cần tư vấn</label>
+                    <select class="browser-default custom-select mb-4">
+                        <option value="" disabled>Lựa chọn....</option>
+                        <option value="1" selected>Tiếng Nhật Online</option>
+                        <option value="2">Lớp học Tiếng Nhật tại Trung Tâm</option>
+                        <option value="3">Các chương trình du học</option>
+                        <option value="4">Thông tin học bổng</option>
+                        <option value="5">Thông tin sự kiện tại Trung Tâm</option>
+                    </select></form>
+                </div>
+                <div class="md-form">
+                    <i class="fa fa-pencil prefix text-white"></i>
+                    <textarea type="text" id="tinnhan" class="md-textarea form-control text-white" rows="4"></textarea>
+                    <label data-error="wrong" data-success="right" for="tinnhan">Tin nhắn từ bạn</label>
+                </div>
+                <div class="md-form mb-2 text-white text-center">
+                    <p>Cảm ơn bạn đã gửi tin nhắn cho chúng tôi. Chúng tôi sẽ trả lời bạn trong 2 ngày tới.</p>
+                </div>
+
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button class="btn">Gửi ngay <i class="fa fa-paper-plane-o ml-1"></i></button>
+            </div>
+        </div>
+    </div>
+    </div>
                         <!-- end content6: liên hệ cùng chúng tôi -->
         <!-- map địa chỉ -->
     <div id="content7">

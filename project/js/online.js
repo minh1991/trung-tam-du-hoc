@@ -5,32 +5,32 @@ $(function() {
 		console.log($('html').scrollTop());
 		var vitrimenu = $('html').scrollTop();
 		
-		if ((vitrimenu>=20)&&(vitrimenu<2024)) {
+		if ((vitrimenu>=669)&&(vitrimenu<2589)) {
 			$('#menu-duoi .nav-item.mn-lotrinhhoctap').addClass('vitri-line');
 		} else {
 			$('#menu-duoi .nav-item.mn-lotrinhhoctap').removeClass('vitri-line');
 		}
-		if ((vitrimenu>=2024)&&(vitrimenu<3058)) {
+		if ((vitrimenu>=2589)&&(vitrimenu<3403)) {
 			$('#menu-duoi .nav-item.mn-phuongphaphoc').addClass('vitri-line');
 		} else {
 			$('#menu-duoi .nav-item.mn-phuongphaphoc').removeClass('vitri-line');
 		}
-		if ((vitrimenu>=3058)&&(vitrimenu<3541)) {
+		if ((vitrimenu>=3403)&&(vitrimenu<5111)) {
 			$('#menu-duoi .nav-item.mn-chiase').addClass('vitri-line');
 		} else {
 			$('#menu-duoi .nav-item.mn-chiase').removeClass('vitri-line');
 		}
-		if ((vitrimenu>=3541)&&(vitrimenu<4279)) {
+		if ((vitrimenu>=5111)&&(vitrimenu<5624)) {
 			$('#menu-duoi .nav-item.mn-giaovien').addClass('vitri-line');
 		} else {
 			$('#menu-duoi .nav-item.mn-giaovien').removeClass('vitri-line');
 		}
-		if (vitrimenu>=4279) {
+		if (vitrimenu>=5624) {
 			$('#menu-duoi .nav-item.mn-tuvan').addClass('vitri-line');
 		} else {
 			$('#menu-duoi .nav-item.mn-tuvan').removeClass('vitri-line');
 		}
-		if ((vitrimenu>=20)&&(vitrimenu<2024)) {
+		if ((vitrimenu>=669)&&(vitrimenu<2589)) {
 			$('#menu-top .bottom').addClass('menu1');
 			$('#logo').addClass('bg-logo1');
 			$('#logo img.img-fluid').addClass('logo1');
@@ -44,7 +44,7 @@ $(function() {
 			$('#menu-duoi .navbar').removeClass('navbar1');
 			$('#menu-duoi .navbar .menuduoi-content a').removeClass('navbar-a');	
 		}
-		if ((vitrimenu>=2024)&&(vitrimenu<3058)) {
+		if ((vitrimenu>=2589)&&(vitrimenu<3403)){
 			$('#menu-top .bottom').addClass('menu2');
 			$('#logo').addClass('bg-logo2');
 			$('#logo img.img-fluid').addClass('logo2');
@@ -56,7 +56,7 @@ $(function() {
 			$('#menu-duoi .navbar').removeClass('navbar2');
 			$('#menu-duoi .navbar .menuduoi-content a').removeClass('navbar-a2');			
 		}
-		if ((vitrimenu>=3058)&&(vitrimenu<3541)) {
+		if ((vitrimenu>=3403)&&(vitrimenu<5111))  {
 			$('#menu-top .bottom').addClass('menu3');
 			$('#logo').addClass('bg-logo3');
 			$('#logo img.img-fluid').addClass('logo3');
@@ -71,7 +71,7 @@ $(function() {
 			$('#menu-duoi .navbar .menuduoi-content a').removeClass('navbar-a3');
 			
 		}
-		if (vitrimenu>=3541) {
+		if (vitrimenu>=5111) {
 			$('#menu-top .bottom').addClass('menu4');
 			$('#logo').addClass('bg-logo4');
 			$('#logo img.img-fluid').addClass('logo4');
@@ -100,3 +100,18 @@ $(document).ready(function() {
 		return false;
 	});;
 });
+
+
+//bán khóa học
+var input = document.getElementById('soluon');
+var cost = document.getElementById('cost');
+var giaTien=parseInt(cost.getAttribute('data-cost'));
+console.log(giaTien);
+input.addEventListener('input',handleOnchange);
+function handleOnchange (e){
+	
+	var number =e.target.value;
+	document.getElementById('tongtien').innerHTML = ((number*giaTien).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + ' ₫');
+
+
+}
